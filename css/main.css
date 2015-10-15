@@ -1,0 +1,42 @@
+body {
+  padding: 7.857142857142857em 0 0 0;
+}
+.navbar-fixed-top {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.navbar {
+  border-radius: 0;
+  background: #2c3e50;
+  text-transform: uppercase;
+  font: 900 100%/3 sans-serif;
+  height: 7.857142857142857em;
+}
+.navbar-brand {
+  font: bold 200% sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar-brand:hover {
+  color: #18bc9c;
+  transition: 0.3s;
+}
+.nav > li > a, .nav > li > a:focus {
+  background: #2c3e50;
+  color: #fff;
+}
+.nav > li > a:hover {
+  color: #18bc9c;
+  background: #2c3e50;
+
+}
+.portfolio {
+  background: #18bc9c;
+  height: 47.42857142857143em;
+}
+.about {
+  background: #fff;
+}
+.contact {
+  background: #18bc9c;
+}
