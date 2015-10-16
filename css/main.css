@@ -1,5 +1,6 @@
 body {
-  padding: 7.857142857142857em 0 0 0;
+  /* 1em=14px -- 110px*/
+  padding: 7.857142857142857em 0 0 0; /*@110px = 7.857142857142857em 0 0 0 @80 px = 5.714285714285714em 0 0 0*/
 }
 .navbar-fixed-top {
   color: #ffffff;
@@ -9,20 +10,25 @@ body {
   border-radius: 0;
   background: #2c3e50;
   text-transform: uppercase;
-  font: 900 100%/3 sans-serif;
-  height: 7.857142857142857em;
+  /* 1em=14px -- 110px*/
+  height: 7.857142857142857em; /*1em=14px @110px = 7.857142857142857em  @80 px = 5.714285714285714em*/
 }
 .navbar-brand {
-  font: bold 200% sans-serif;
+  /* 1em=14px/30px 30px/42px */
+  font: 700 2.142857142857143em/1.4em "Montserrat";
   text-transform: uppercase;
   color: #fff;
+  transition: 0.3s;
 }
 .navbar-brand:hover {
   color: #18bc9c;
-  transition: 0.3s;
 }
 .nav > li > a, .nav > li > a:focus {
   background: #2c3e50;
+  /* 1em=15px -- 15px/33px*/
+  font: 700 1.071428571428571em/2.2em "Montserrat";
+  /* 1em=15px -- 1px*/
+  letter-spacing: 0.0666666666666667em;
   color: #fff;
 }
 .nav > li > a:hover {
@@ -30,13 +36,26 @@ body {
   background: #2c3e50;
 
 }
-.portfolio {
+.splash {
   background: #18bc9c;
+  /* 1em=14px -- 664px*/
   height: 47.42857142857143em;
+
+}
+.logo {
+  margin-top: 100px;
+}
+.portfolio {
+  background: #fff;
+  /* 1em=14px -- 914px*/
+  height: 65.28571428571429em;
 }
 .about {
-  background: #fff;
+  background: #18bc9c;
+  /* 1em=14px -- 568px*/
+  height: 40.57142857142857em;
 }
 .contact {
-  background: #18bc9c;
+  background: #fff;
+  height: 700px;
 }
