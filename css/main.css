@@ -1,6 +1,7 @@
 body {
   /* 1em=14px -- 110px*/
   padding: 7.857142857142857em 0 0 0; /*@110px = 7.857142857142857em 0 0 0 @80 px = 5.714285714285714em 0 0 0*/
+  color: #2c3e50;
 }
 .navbar-fixed-top {
   color: #ffffff;
@@ -40,10 +41,14 @@ body {
   background: #18bc9c;
   /* 1em=14px -- 664px*/
   height: 47.42857142857143em;
-
+  color: #fff;
 }
 .logo {
-  margin-top: 100px;
+  margin: 80px 0 20px 0;
+}
+.name {
+  font: 700 70px/60px "Montserrat";
+  text-transform: uppercase;
 }
 .portfolio {
   background: #fff;
