@@ -46,9 +46,17 @@ body {
 .logo {
   margin: 80px 0 20px 0;
 }
-.name {
+.nameplate {
   font: 700 70px/60px "Montserrat";
   text-transform: uppercase;
+}
+.subtitle {
+  font-size: 25px;
+}
+.section-header {
+  text-transform: uppercase;
+  font: 700 45px/45px "Montserrat";
+  margin: 100px 0 0 0;
 }
 .portfolio {
   background: #fff;
@@ -59,8 +67,41 @@ body {
   background: #18bc9c;
   /* 1em=14px -- 568px*/
   height: 40.57142857142857em;
+  color: #fff;
 }
 .contact {
   background: #fff;
   height: 700px;
+}
+.footer {
+  font: 400 20px/25px "Lato";
+  height: 275px;
+  background: #2c3e50;
+  color: #fff;
+}
+.footer div h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 50px;
+  text-transform: uppercase;
+
+}
+.footer p {
+  padding-top: 25px;
+}
+.copyright {
+  position: relative;
+  height: 75px;
+  background: #233140;
+  color: #fff;
+  font: normal 15px "Lato";
+}
+.copyright p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
