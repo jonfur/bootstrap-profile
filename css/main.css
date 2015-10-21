@@ -133,8 +133,26 @@ body {
 
 }
 
-.footer p {
-  padding-top: 25px;
+.footer p, .footer ul {
+  padding-top: 35px;
+}
+
+.footer .btn-social {
+  display: inline-block;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer .btn-social:hover, .footer .btn-social:focus, .footer .btn-social:active, .footer .btn-social.active {
+  color: #18bc9c;
+  background-color: #fff;
+  outline: 0;
 }
 
 .copyright {
