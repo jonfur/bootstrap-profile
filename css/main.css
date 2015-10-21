@@ -60,7 +60,7 @@ body {
   text-transform: uppercase;
 }
 
-.star-light, .star-dark {
+.bird-light, .bird-dark {
   margin: 30px auto 30px;
   padding: 0;
   border: 0;
@@ -69,18 +69,18 @@ body {
   text-align: center;
 }
 
-.star-light:after {
+.bird-light:after {
   color: #fff;
   background-color: #18bc9c;
 }
 
-.star-dark:after {
+.bird-dark:after {
   color: #2c3e50;
   background-color: #fff;
 }
 
-.star-light:after, .star-dark:after {
-  content: "\f005";
+.bird-light:after, .bird-dark:after {
+  content: "\f099";
   display: inline-block;
   position: relative;
   top: -.8em;
@@ -88,8 +88,6 @@ body {
   font-family: "FontAwesome";
   font-size: 2.25em;
 }
-
-
 
 .subtitle {
   font-size: 25px;
