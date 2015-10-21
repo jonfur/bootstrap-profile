@@ -3,10 +3,12 @@ body {
   padding: 7.857142857142857em 0 0 0; /*@110px = 7.857142857142857em 0 0 0 @80 px = 5.714285714285714em 0 0 0*/
   color: #2c3e50;
 }
-.navbar-fixed-top {
+
+  .navbar-fixed-top {
   color: #ffffff;
   margin-bottom: 0;
 }
+
 .navbar {
   border-radius: 0;
   background: #2c3e50;
@@ -14,6 +16,7 @@ body {
   /* 1em=14px -- 110px*/
   height: 7.857142857142857em; /*1em=14px @110px = 7.857142857142857em  @80 px = 5.714285714285714em*/
 }
+
 .navbar-brand {
   /* 1em=14px/30px 30px/42px */
   font: 700 2.142857142857143em/1.4em "Montserrat";
@@ -21,9 +24,11 @@ body {
   color: #fff;
   transition: 0.3s;
 }
+
 .navbar-brand:hover {
   color: #18bc9c;
 }
+
 .nav > li > a, .nav > li > a:focus {
   background: #2c3e50;
   /* 1em=15px -- 15px/33px*/
@@ -32,54 +37,96 @@ body {
   letter-spacing: 0.0666666666666667em;
   color: #fff;
 }
+
 .nav > li > a:hover {
   color: #18bc9c;
   background: #2c3e50;
-
 }
+
 .splash {
   background: #18bc9c;
   /* 1em=14px -- 664px*/
   height: 47.42857142857143em;
   color: #fff;
 }
+
 .logo {
   margin: 80px 0 20px 0;
 }
+
 .nameplate {
+  margin: 50px;
   font: 700 70px/60px "Montserrat";
   text-transform: uppercase;
 }
+
+.star-light, .star-dark {
+  margin: 30px auto 30px;
+  padding: 0;
+  border: 0;
+  border-top: solid 5px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.star-light:after {
+  color: #fff;
+  background-color: #18bc9c;
+}
+
+.star-dark:after {
+  color: #2c3e50;
+  background-color: #fff;
+}
+
+.star-light:after, .star-dark:after {
+  content: "\f005";
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  padding: 0 .25em;
+  font-family: "FontAwesome";
+  font-size: 2.25em;
+}
+
+
+
 .subtitle {
   font-size: 25px;
 }
+
 .section-header {
   text-transform: uppercase;
   font: 700 45px/45px "Montserrat";
   margin: 100px 0 0 0;
 }
+
 .portfolio {
   background: #fff;
   /* 1em=14px -- 914px*/
   height: 65.28571428571429em;
 }
+
 .about {
   background: #18bc9c;
   /* 1em=14px -- 568px*/
   height: 40.57142857142857em;
   color: #fff;
 }
+
 .contact {
   background: #fff;
   height: 700px;
 }
+
 .footer {
   font: 400 20px/25px "Lato";
   height: 275px;
   background: #2c3e50;
   color: #fff;
 }
-.footer div h3 {
+
+.footer-heading {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 25px;
@@ -87,9 +134,11 @@ body {
   text-transform: uppercase;
 
 }
+
 .footer p {
   padding-top: 25px;
 }
+
 .copyright {
   position: relative;
   height: 75px;
@@ -97,11 +146,11 @@ body {
   color: #fff;
   font: normal 15px "Lato";
 }
+
 .copyright p {
-  margin: 0;
+  margin: 0 -50% 0 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%, -50%);
 }
