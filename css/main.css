@@ -25,11 +25,12 @@ body {
   transition: 0.3s;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus {
   color: #18bc9c;
+  outline: 0;
 }
 
-.nav > li > a, .nav > li > a:focus {
+.nav > li > a {
   background: #2c3e50;
   /* 1em=15px -- 15px/33px*/
   font: 700 1.071428571428571em/2.2em "Montserrat";
@@ -38,9 +39,10 @@ body {
   color: #fff;
 }
 
-.nav > li > a:hover {
+.nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus  {
   color: #18bc9c;
   background: #2c3e50;
+  outline: 0;
 }
 
 .splash {
