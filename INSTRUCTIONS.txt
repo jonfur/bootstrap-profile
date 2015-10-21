@@ -1,0 +1,29 @@
+Github profile
+Bootstrap
+Go through Git codeschool
+FEEL FREE TO ASK QUESTIONS!
+GET STUFF FINISHED
+BOOTSTRAP GRIDS
+WE ALL STRUGGLE
+IT'S THE SAME FOR EVERYONE
+YOU JUST GET USED TO IT
+DON'T GET LOST
+JUST DO IT
+
+Participate in Web Dev culture
+
+At Half-way: Contact Steve for more guidance
+
+Discover Dev Tools CS course
+
+If you need help - ASK! Especially with GIT!
+
+Modify what you want
+Create profile to reflect where I want to be at end of education
+HTML boilerplate
+Use http://ironsummitmedia.github.io/startbootstrap-freelancer/ as reference
+
+Look around Big Pixel github
+Do course on Git (whole path)
+Do course on Bootstrap
+Do course on SASS if necessary, but avoid otherwise
