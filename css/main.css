@@ -162,13 +162,44 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 .about p {
-  font: 400 20px/25px "Lato";
-  margin-top: 25px;
+  font: 400 20px/27px "Lato";
+  margin: 0 0 0 10.5px;
 }
 
 .contact {
   background: #fff;
-  height: 700px;
+}
+
+.form-group input, .form-group textarea {
+  color: #555;
+  padding: 50px 0;
+  font-size: 1.75em;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  resize: none;
+  box-shadow: none!important;
+}
+
+.form-group:first-child {
+  border-top: 1px solid #eee;
+}
+
+.btn-success {
+  padding: 19px 27px;
+  margin: 15px 0 125px 0;
+  font-size: 20px;
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: #18aa7a;
+  border-color: #18bc9c;
+  outline: 0;
+}
+
+.btn-success:focus, .btn-success:active, .btn-success.active {
+  border: 2px solid #000;
 }
 
 .footer {
