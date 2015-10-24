@@ -5,6 +5,11 @@ body {
   font-family: "Lato";
 }
 
+a, a:hover, a:focus, a:active, a.active {
+  outline: 0;
+  color: #18bc9c;
+}
+
   .navbar-fixed-top {
   color: #ffffff;
   margin-bottom: 0;
@@ -118,6 +123,35 @@ body {
 .portfolio-tile {
   margin: 0 0 30px;
   width: 33.33333333%;
+}
+
+.portfolio-link {
+  display: block;
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(24,188,156,.7);
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+.caption:hover {
+  opacity: 1;
+}
+
+.caption-content {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  margin-top: -40px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .about {
