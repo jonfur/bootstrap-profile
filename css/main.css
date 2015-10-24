@@ -2,6 +2,7 @@ body {
   /* 1em=14px -- 110px*/
   padding: 7.857142857142857em 0 0 0; /*@110px = 7.857142857142857em 0 0 0 @80 px = 5.714285714285714em 0 0 0*/
   color: #2c3e50;
+  font-family: "Lato";
 }
 
   .navbar-fixed-top {
@@ -95,6 +96,13 @@ body {
   font-size: 25px;
 }
 
+.subtitle > i {
+  margin: 0 10px;
+  padding: 0 5px;
+  font-size: 23px;
+  text-align: center;
+}
+
 .section-header {
   text-transform: uppercase;
   font: 700 45px/45px "Montserrat";
@@ -102,9 +110,14 @@ body {
 }
 
 .portfolio {
+  display: block;
   background: #fff;
-  /* 1em=14px -- 914px*/
-  height: 65.28571428571429em;
+  padding-bottom: 100px;
+  }
+
+.portfolio-tile {
+  margin: 0 0 30px;
+  width: 33.33333333%;
 }
 
 .about {
