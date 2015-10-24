@@ -170,7 +170,7 @@ a, a:hover, a:focus, a:active, a.active {
   background: #fff;
 }
 
-.form-group input, .form-group textarea {
+.form-group input, .form-group textarea, .form-group input:focus, .form-group textarea:focus {
   color: #555;
   padding: 50px 0;
   font-size: 1.75em;
