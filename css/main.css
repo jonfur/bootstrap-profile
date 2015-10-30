@@ -2,6 +2,12 @@ body {
   /* 1em=14px -- 110px*/
   padding: 7.857142857142857em 0 0 0; /*@110px = 7.857142857142857em 0 0 0 @80 px = 5.714285714285714em 0 0 0*/
   color: #2c3e50;
+  font-family: "Lato";
+}
+
+a, a:hover, a:focus, a:active, a.active {
+  outline: 0;
+  color: #18bc9c;
 }
 
   .navbar-fixed-top {
@@ -25,11 +31,12 @@ body {
   transition: 0.3s;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus {
   color: #18bc9c;
+  outline: 0;
 }
 
-.nav > li > a, .nav > li > a:focus {
+.nav > li > a {
   background: #2c3e50;
   /* 1em=15px -- 15px/33px*/
   font: 700 1.071428571428571em/2.2em "Montserrat";
@@ -38,9 +45,10 @@ body {
   color: #fff;
 }
 
-.nav > li > a:hover {
+.nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus  {
   color: #18bc9c;
   background: #2c3e50;
+  outline: 0;
 }
 
 .splash {
@@ -60,7 +68,7 @@ body {
   text-transform: uppercase;
 }
 
-.star-light, .star-dark {
+.bird-light, .bird-dark {
   margin: 30px auto 30px;
   padding: 0;
   border: 0;
@@ -69,18 +77,18 @@ body {
   text-align: center;
 }
 
-.star-light:after {
+.bird-light:after {
   color: #fff;
   background-color: #18bc9c;
 }
 
-.star-dark:after {
+.bird-dark:after {
   color: #2c3e50;
   background-color: #fff;
 }
 
-.star-light:after, .star-dark:after {
-  content: "\f005";
+.bird-light:after, .bird-dark:after {
+  content: "\f099";
   display: inline-block;
   position: relative;
   top: -.8em;
@@ -89,10 +97,15 @@ body {
   font-size: 2.25em;
 }
 
-
-
 .subtitle {
   font-size: 25px;
+}
+
+.subtitle > i {
+  margin: 0 10px;
+  padding: 0 5px;
+  font-size: 23px;
+  text-align: center;
 }
 
 .section-header {
@@ -102,9 +115,43 @@ body {
 }
 
 .portfolio {
+  display: block;
   background: #fff;
-  /* 1em=14px -- 914px*/
-  height: 65.28571428571429em;
+  padding-bottom: 100px;
+  }
+
+.portfolio-tile {
+  margin: 0 0 30px;
+  width: 33.33333333%;
+}
+
+.portfolio-link {
+  display: block;
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(24,188,156,.7);
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+.caption:hover {
+  opacity: 1;
+}
+
+.caption-content {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  margin-top: -40px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .about {
@@ -114,9 +161,45 @@ body {
   color: #fff;
 }
 
+.about p {
+  font: 400 20px/27px "Lato";
+  margin: 0 0 0 10.5px;
+}
+
 .contact {
   background: #fff;
-  height: 700px;
+}
+
+.form-group input, .form-group textarea, .form-group input:focus, .form-group textarea:focus {
+  color: #555;
+  padding: 50px 0;
+  font-size: 1.75em;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  resize: none;
+  box-shadow: none!important;
+}
+
+.form-group:first-child {
+  border-top: 1px solid #eee;
+}
+
+.btn-success {
+  padding: 19px 27px;
+  margin: 15px 0 125px 0;
+  font-size: 20px;
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: #18aa7a;
+  border-color: #18bc9c;
+  outline: 0;
+}
+
+.btn-success:focus, .btn-success:active, .btn-success.active {
+  border: 2px solid #000;
 }
 
 .footer {
@@ -135,8 +218,26 @@ body {
 
 }
 
-.footer p {
-  padding-top: 25px;
+.footer p, .footer ul {
+  padding-top: 35px;
+}
+
+.footer .btn-social {
+  display: inline-block;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer .btn-social:hover, .footer .btn-social:focus, .footer .btn-social:active, .footer .btn-social.active {
+  color: #18bc9c;
+  background-color: #fff;
+  outline: 0;
 }
 
 .copyright {
